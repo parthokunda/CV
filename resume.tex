@@ -74,7 +74,7 @@
 
 \newcommand{\projectSubItem}[4]
 {
-    \item{\textbf{#1} - #4}\\
+    \item{\textbf{#1} - \textit{#4}}\\
     {#2}\\
     {Tech Stack: #3} \\% tech stack
     % {#4}
@@ -91,50 +91,58 @@
 \noindent
 \begin{minipage}[t]{0.35\textwidth}
 {\LARGE \textbf{Partho Kunda}}\\
-{\large \textbf{Software Engineer}}\\
+% {\large \textbf{Software Engineer}}\\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.55\textwidth}
 \raggedleft
-{\large \href{https://parthokunda.dev}{\textbf{parthokunda.dev}}}
+{\large \href{https://parthokunda.dev}{\textit{\textbf{parthokunda.dev}}}}
 \end{minipage}
 \hfill
 
 \begin{minipage}[t]{0.35\textwidth}
-    Address: Dhaka, Bangladesh\\
+    % Address: Dhaka, Bangladesh\\
     Email: \href{mailto:parthokunda@gmail.com}{parthokunda@gmail.com}\\
     Mobile: +8801720998327
 \end{minipage}
 \hfill % Pushes the next minipage to the right
 \begin{minipage}[t]{0.55\textwidth} % Middle column for Links
     \raggedleft
-    GitHub: \href{https://github.com/parthokunda/}{github.com/parthokunda}\\ % Link with small space below
-    LinkedIn: \href{https://www.linkedin.com/in/partho-kunda-bb53148b/}{linkedin.com/in/partho-kunda}\\
+    GitHub: \href{https://github.com/parthokunda/}{\textit{github.com/parthokunda}}\\ % Link with small space below
+    LinkedIn: \href{https://www.linkedin.com/in/partho-kunda-bb53148b/}{\textit{linkedin.com/in/partho-kunda}}\\
 \end{minipage}
 \hfill
 
 \section{Profile}
-Software engineer with 1.5+ years of professional experience working in fast-paced production environment.
-Currently at Chaldal (YC-backed) where I have architected Chaldal's Inventory Platform, optimized API latency and built an ML pipeline.
-Comfortable across both frontend and backend, with an interest in distributed systems and infrastructure.
+Software engineer with nearly 2 years of experience building production systems at Chaldal (YC-backed startup).
+Architected Chaldal's Inventory Platform, optimized API latency and built an ML pipeline.
+Full-stack developer with an interest in system design and infrastructure.
+% Proficient in both frontend and backend system, with an interest in distributed systems and infrastructure.
 % Currently looking for opportunities to learn and grow myself as an engineer.
-\\
-\textbf{Languages:}{ C\#, C++, Python, TypeScript, F\#, Golang, Bash} \\
-\textbf{Frameworks \& Tools:}{ React, Linux, Git, Kubernetes, Docker, SQL Server, Microsoft Orleans, Vim }
+
+\section{Technical Skills}
+\textbf{Languages:}{ C\#, F\#, C++, Python, Javascript, Golang, Bash} \\
+\textbf{Frameworks \& Libraries:}{ React, Microsoft Orleans, gRPC, RabbitMQ, Tailwind CSS} \\
+\textbf{Infrastructure \& DevOps:}{ Kubernetes, Docker, Linux, Git, GitHub Actions, AWS, Prometheus, Grafana, Istio} \\
+\textbf{Databases:}{ SQL Server, PostgreSQL, SQLite, MongoDB, Snowflake}
+
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheadingExperience
       {L2 Software Engineer}
       {Supply Chain and Operations Team}
       {July 2024 - Present}
-      {Chaldal - \href{https://chaldal.tech/}{chaldal.tech} - Y Combinator Startup}{Dhaka, Bangladesh}
-      {Tech Stack: C\#, F\#, React, SQL Server, GRPC, Microsoft Orleans, Kubernetes}
+      {Chaldal - \href{https://chaldal.tech/}{\textit{chaldal.tech}} - Y Combinator Startup}{Dhaka, Bangladesh}
+      {Tech Stack: C\#, F\#, React, SQL Server, gRPC, Microsoft Orleans, Kubernetes}
       \resumeItemListStart
-        \resumeItem{Reduced \href{https://chaldal.com/}{chaldal.com} homepage's catalog-related API latency by \textbf{60\%} through backend optimization.}
-        \resumeItem{Implemented the state machine, API and unit testing for Chaldal's Inventory Platform project. To date, the project has more than \textbf{250} active investors and funds approximately \textbf{65\%} of the inventory demand.}
-        \resumeItem{Designed a scalable system to track each item's movement across our inventory for Inventory Platform project. Currently the system processes about \textbf{300K} items at a time.}
-        \resumeItem{Built a new prediction pipeline and backfilled 6 years of sales data to integrate our core backend with an ML microservice. The model is projected to save at least \textbf{\$100K} a year compared to our previous model.}
-        \resumeItem {Migrated both backend and frontend of Chaldal Vegetable Network \textbf{from Service Fabric to Kubernetes}.}
+        \resumeItem{Reduced \href{https://chaldal.com/}{\textit{chaldal.com}} homepage's catalog API latency by 60\% through cache call and DB query optimization.}
+        \resumeItem{Implemented the state machine, API and unit testing for Chaldal's Inventory Platform project. The platform serves 250+ active investors and funds approximately 65\% of the inventory demand.}
+        \resumeItem{
+          Designed a scalable system to track each item's movement across our inventory for Inventory Platform project.
+          The system processes $\sim$300K items at a time.}
+        \resumeItem {Built a new prediction pipeline and backfilled 6 years of sales data to integrate our core backend with an ML microservice. The model is projected to save at least \$100K per year compared to our previous model.}
+        \resumeItem {Took ownership of Inventory Platform and Chaldal Vegetable Network, serving as primary on-call engineer for over a year and resolving 40+ critical production alarms to maintain operational continuity.}
+        % \resumeItem {Migrated both backend and frontend of Chaldal Vegetable Network from Service Fabric to Kubernetes.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -150,13 +158,13 @@ Comfortable across both frontend and backend, with an interest in distributed sy
   \resumeSubHeadingListStart
     \projectSubItem
       {Lazygit}
-      {Improved launch time $\sim$330x in repositories with a large number of files by implementing a more efficient data structure.}
+      {Improved launch time by $\sim$330x in repositories with a large number of files by implementing efficient data structures.}
       {Golang}
       {\href{https://github.com/jesseduffield/lazygit/pull/3919}{github.com/jesseduffield/lazygit/pull/3919}}
 
     \projectSubItem
       {Maya Natural Match}
-      {Built CD pipeline, cloud hosting, and analytics for an LLM-based haircare product recommendation site for Maya (Square Group). Live in production with $\sim$300 daily users.}
+      {Set up CD pipeline, cloud hosting, and analytics for an LLM-based haircare product recommendation site for Maya (Square Group). Serves $\sim$300 daily users.}
       {AWS, Docker, Docker Compose, GitHub Actions}
       {\href{https://maya-naturalmatch.com/}{maya-naturalmatch.com}}
 
@@ -173,9 +181,9 @@ Comfortable across both frontend and backend, with an interest in distributed sy
 
     \projectSubItem{MEDist}
       {Developed a microservice-based platform enabling online patient appointment booking and providing doctors with tools for e-prescribing and managing consultations.}
-      {React, TypeScript, Tailwind CSS, RabbitMQ}
-      {\href{https://github.com/piratepartho/CSE-408-MEDist}
-      {github.com/piratepartho/CSE-408-MEDist}}
+      {React, Javascript, Tailwind CSS, RabbitMQ}
+      {\href{https://github.com/parthokunda/CSE-408-MEDist}
+      {github.com/parthokunda/CSE-408-MEDist}}
 
     % \projectSubItem
     %     {Order Book Generator}
@@ -188,19 +196,20 @@ Comfortable across both frontend and backend, with an interest in distributed sy
   \resumeSubHeadingListStart
     \resumeSubheadingEducation
       {Bangladesh University of Engineering \& Technology}
-      {Dhaka, Bangladesh}
+      {April 2019 -- June 2024}
       {B.Sc. in Computer Science and Engineering}
-      {Apr. 2019 -- Jun. 2024}
+      {Dhaka, Bangladesh}
       {GPA: 3.90/4.00. Top 22\%}
   \resumeSubHeadingListEnd
 
 \section{Extracurricular Activities}
   \resumeSubHeadingListStart
     \item
-        \textbf{Competitive Programming:} Participated in online contests for 3+ years. Achieved Expert rank in Codeforces.
-        \\ Link: \href{https://codeforces.com/profile/dont_ask_my_name}{codeforces.com/profile/dont\_ask\_my\_name}
+        Achieved Expert rank in Codeforces.
+        Link: \href{https://codeforces.com/profile/dont_ask_my_name}{\textit{codeforces.com/profile/dont\_ask\_my\_name}}
+    \vspace{-6pt}
     \item
-        \textbf{Math Olympiad:} 1st Runner Up in National level Math Olympiad.
+        1st Runner Up in National level Math Olympiad.
 
     % \item
     %     \textbf{Hobbies:}
