@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1776023027.22575 "/home/partho/Downloads/Partho_Kunda_CV/resume.tex" "resume.pdf" "resume" 1776023027.96335 0
+["pdflatex"] 1775758279.07243 "/home/partho/Downloads/Partho_Kunda_CV/resume.tex" "resume.pdf" "resume" 1775758279.58766 0
   "/etc/texmf/web2c/texmf.cnf" 1772617016.43023 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/partho/Downloads/Partho_Kunda_CV/resume.tex" 1776023026.99713 8743 257e47d6e66925fbf24a83c0c6a90339 ""
+  "/home/partho/Downloads/Partho_Kunda_CV/resume.tex" 1775758278.68501 8693 ec92f62a2357375cc7b6ede12009f4ce ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -82,9 +82,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772617059.22893 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772617187 8212165 c75ae8fce229d4d51ca14d7802bcd3e8 ""
-  "resume.aux" 1776023027.89313 838 b2f11b5bc0288a5447f8e4704432c9bf "pdflatex"
-  "resume.out" 1776023027.89313 740 765f57fe9a9c525f5f4849fda4374438 "pdflatex"
-  "resume.tex" 1776023026.99713 8743 257e47d6e66925fbf24a83c0c6a90339 ""
+  "resume.aux" 1775758279.545 820 496301d72c4058044c1bd09920a82b32 "pdflatex"
+  "resume.out" 1775758279.545 644 385189271ffac60eee7b03487fe4bfc7 "pdflatex"
+  "resume.tex" 1775758278.68501 8693 ec92f62a2357375cc7b6ede12009f4ce ""
   (generated)
   "resume.aux"
   "resume.log"
